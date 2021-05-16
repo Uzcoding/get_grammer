@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="836" height="497" viewBox="0 0 836 497">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1c68"/>
+      <stop offset="1" stop-color="#ff4a40"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_585" data-name="Прямоугольник 585" width="836" height="497" transform="translate(10113 -2733)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Группа_масок_1" data-name="Группа масок 1" transform="translate(-10113 2733)" clip-path="url(#clip-path)">
+    <g id="Сгруппировать_1002" data-name="Сгруппировать 1002" opacity="0.42">
+      <circle id="Эллипс_62" data-name="Эллипс 62" cx="216" cy="216" r="216" transform="translate(10627 -2536)" fill="#fff" opacity="0.17"/>
+      <circle id="Эллипс_63" data-name="Эллипс 63" cx="154" cy="154" r="154" transform="translate(10689 -2474)" fill="#fff" opacity="0.17"/>
+      <circle id="Эллипс_64" data-name="Эллипс 64" cx="84" cy="84" r="84" transform="translate(10759 -2404)" fill="#ce0ed9"/>
+    </g>
+    <circle id="Эллипс_62-2" data-name="Эллипс 62" cx="216" cy="216" r="216" transform="translate(10080 -3055)" fill="#fff" opacity="0.17"/>
+    <circle id="Эллипс_63-2" data-name="Эллипс 63" cx="154" cy="154" r="154" transform="translate(10142 -2993)" fill="#6b5ef0"/>
+    <g id="drawer-triangle">
+      <path id="Многоугольник_1" data-name="Многоугольник 1" d="M122.5,0,245,212H0Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 10128.953, -2447.093)" fill="#fff" opacity="0.14"/>
+      <path id="Многоугольник_2" data-name="Многоугольник 2" d="M79.5,0,159,138H0Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 10136.954, -2382.121)" fill="#fff" opacity="0.14"/>
+      <path id="Многоугольник_3" data-name="Многоугольник 3" d="M33.5,0,67,58H0Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 10151.692, -2322.97)" fill="#4a79f5"/>
+    </g>
+  </g>
+</svg>

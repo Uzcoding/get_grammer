@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128.187" height="146.5" viewBox="0 0 128.187 146.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.05" y1="0.054" x2="0.964" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3c99f4"/>
+      <stop offset="1" stop-color="#cc10d9"/>
+    </linearGradient>
+  </defs>
+  <g id="dictionary" transform="translate(-32)">
+    <path id="Контур_10414" data-name="Контур 10414" d="M155.609,0H48.023A16.042,16.042,0,0,0,32,16.023V130.477A16.042,16.042,0,0,0,48.023,146.5H155.609a4.578,4.578,0,0,0,4.578-4.578V4.578A4.578,4.578,0,0,0,155.609,0Zm-4.578,114.453H59.469V9.156h91.562ZM41.156,16.023a6.875,6.875,0,0,1,6.867-6.867h2.289v105.3c-2.525,0-5.478-.21-9.156,1.538Zm109.875,121.32H48.023a6.867,6.867,0,0,1,0-13.734H151.031Z" fill="url(#linear-gradient)"/>
+    <path id="Контур_10415" data-name="Контур 10415" d="M307.127,180.423a4.577,4.577,0,0,0,5.791-2.9l1.246-3.737h11.713l1.246,3.737a4.578,4.578,0,1,0,8.686-2.9l-8.432-25.3a7.76,7.76,0,0,0-14.712,0l-8.432,25.3A4.578,4.578,0,0,0,307.127,180.423Zm15.7-15.789h-5.609l2.8-8.413Z" transform="translate(-235.576 -124.914)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

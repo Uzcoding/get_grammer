@@ -1,0 +1,9 @@
+<svg id="lessons" xmlns="http://www.w3.org/2000/svg" width="93.432" height="91.332" viewBox="0 0 93.432 91.332">
+  <rect id="Прямоугольник_498" data-name="Прямоугольник 498" width="54.589" height="41.992" rx="6" fill="#222455"/>
+  <rect id="Прямоугольник_502" data-name="Прямоугольник 502" width="29.394" height="41.992" rx="6" transform="translate(64.037)" fill="#222455"/>
+  <rect id="Прямоугольник_503" data-name="Прямоугольник 503" width="39.892" height="44.091" rx="6" transform="translate(0 47.241)" fill="#222455"/>
+  <g id="Прямоугольник_500" data-name="Прямоугольник 500" transform="translate(49.341 47.241)" fill="none" stroke="#222455" stroke-width="5">
+    <rect width="44.091" height="44.091" rx="6" stroke="none"/>
+    <rect x="2.5" y="2.5" width="39.091" height="39.091" rx="3.5" fill="none"/>
+  </g>
+</svg>
