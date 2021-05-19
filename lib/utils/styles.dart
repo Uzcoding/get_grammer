@@ -10,8 +10,8 @@ abstract class Styles {
     color: AppColors.white,
     fontWeight: FontWeight.bold,
   );
-  static final styleW400S16 = GoogleFonts.montserrat(
-    fontSize: 16.0,
+  static final styleW400S14 = GoogleFonts.montserrat(
+    fontSize: 14.0,
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
   );
