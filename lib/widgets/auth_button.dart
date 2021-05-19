@@ -16,6 +16,7 @@ class AuthButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width,
+      height: 55.0,
       child: ElevatedButton(
         onPressed: () => action.call(),
         style: ElevatedButton.styleFrom(

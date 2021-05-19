@@ -22,6 +22,10 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       home: SignUpScreen(),
+      routes: {
+        '/sign-in': (context) => SignInScreen(),
+        '/sign-up': (context) => SignUpScreen(),
+      },
     );
   }
 }

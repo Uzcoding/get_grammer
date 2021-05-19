@@ -64,8 +64,8 @@ class BottomContent extends StatelessWidget {
           const SizedBox(height: 20.0),
           Center(
             child: AuthButton(
-              width: 160.0,
-              text: Strings.logIn,
+              width: 240.0,
+              text: Strings.register,
               action: () => print('to login'),
             ),
           ),
@@ -81,9 +81,9 @@ class BottomContent extends StatelessWidget {
           const SizedBox(height: 20.0),
           Center(
             child: GestureDetector(
-              onTap: () => Navigator.pushReplacementNamed(context, '/sign-in'),
+              onTap: () => Navigator.pushReplacementNamed(context, '/sign-up'),
               child: Text(
-                '${Strings.dontHaveAccount}    ${Strings.registeration}',
+                '${Strings.haveAccount}    ${Strings.logIn}',
                 style: Styles.styleW400S14.copyWith(color: AppColors.black),
               ),
             ),

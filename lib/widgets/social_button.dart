@@ -16,14 +16,14 @@ class SocialButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 70.0,
+      width: 75.0,
       height: 60.0,
       child: ElevatedButton(
         onPressed: () => action.call(),
         style: ElevatedButton.styleFrom(
           primary: color,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadiusDirectional.circular(16.0),
+            borderRadius: BorderRadiusDirectional.circular(50.0),
           ),
         ),
         child: SvgPicture.asset(
