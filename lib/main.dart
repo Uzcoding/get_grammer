@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_grammer/screens/screens.dart';
-import 'package:get_grammer/utils/colors.dart';
+import 'package:get_grammer/utils/theme.dart';
+import 'package:get_grammer/utils/utils.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
@@ -17,15 +18,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: AppColors.darkBlue,
-        scaffoldBackgroundColor: Colors.white,
-      ),
+      theme: AppTheme.themeData,
       home: SignUpScreen(),
-      routes: {
-        '/sign-in': (context) => SignInScreen(),
-        '/sign-up': (context) => SignUpScreen(),
-      },
+      onGenerateRoute: (settings) => Routes.generateRoute(settings),
     );
   }
 }

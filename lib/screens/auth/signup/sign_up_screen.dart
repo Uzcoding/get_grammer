@@ -13,23 +13,14 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: AppColors.darkBlue,
-      body: Container(
-        height: double.infinity,
-        child: ScrollConfiguration(
-          behavior: CustomBehavior(),
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                TopContent(),
-                BottomContent(size: size),
-              ],
-            ),
-          ),
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          TopContent(),
+          BottomContent(),
+        ],
       ),
     );
   }

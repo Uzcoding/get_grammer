@@ -22,4 +22,6 @@ abstract class AppColors {
   static const Color switchBg = Color(0xFFBFC0E9B);
   static const Color inputWhite = Color(0xfff5f7f9);
   static const Color shadowBlack = Color(0x29000000);
+  static const Color shadowColor = Color(0xff706868);
+  static const Color forwardBg = Color(0xff28308F);
 }

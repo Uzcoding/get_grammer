@@ -12,28 +12,26 @@ class TopContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: AppColors.darkBlue,
-      padding: const EdgeInsets.only(top: 50.0, bottom: 20.0),
-      child: SafeArea(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.only(
-                left: 25.0,
-                top: 40.0,
-              ),
-              child: Text(
-                Strings.auth,
-                style: Styles.styleW600S25,
-              ),
+      padding: const EdgeInsets.only(top: 70.0, bottom: 40.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 25.0,
+              top: 40.0,
             ),
-            SvgPicture.asset(
-              Svgs.authLogo,
-              height: 200.0,
+            child: Text(
+              Strings.auth,
+              style: Styles.styleW700S25,
             ),
-          ],
-        ),
+          ),
+          SvgPicture.asset(
+            Svgs.authLogo,
+            height: 200.0,
+          ),
+        ],
       ),
     );
   }

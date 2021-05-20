@@ -4,15 +4,9 @@ import 'package:get_grammer/utils/utils.dart';
 import 'package:get_grammer/widgets/widgets.dart';
 
 class SocialButtonsGroup extends StatelessWidget {
-  const SocialButtonsGroup({
-    Key? key,
-    required this.size,
-  }) : super(key: key);
-
-  final Size size;
-
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: size.width / 100 * 12),
       child: Row(

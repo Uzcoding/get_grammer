@@ -1,22 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get_grammer/utils/utils.dart';
-import 'package:get_grammer/widgets/custom_behavior.dart';
-import 'package:get_grammer/widgets/widgets.dart';
 
 import 'widgets/widgets.dart';
 
-class SignInScreen extends StatefulWidget {
-  @override
-  _SignInScreenState createState() => _SignInScreenState();
-}
-
-class _SignInScreenState extends State<SignInScreen> {
+class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.darkBlue,
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           TopContent(),
           BottomContent(),
