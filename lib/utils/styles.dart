@@ -10,8 +10,20 @@ abstract class Styles {
     fontWeight: FontWeight.bold,
   );
 
+  static const styleW600S21 = TextStyle(
+    fontSize: 21.0,
+    color: AppColors.darkBlue,
+    fontWeight: FontWeight.w600,
+  );
+
   static const styleW600S19 = TextStyle(
     fontSize: 19.0,
+    color: AppColors.darkBlue,
+    fontWeight: FontWeight.w600,
+  );
+
+  static const styleW600S13 = TextStyle(
+    fontSize: 13.0,
     color: AppColors.darkBlue,
     fontWeight: FontWeight.w600,
   );
@@ -26,5 +38,23 @@ abstract class Styles {
     fontSize: 14.0,
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
+  );
+
+  static const styleW400S12 = TextStyle(
+    fontSize: 12.0,
+    fontWeight: FontWeight.normal,
+    color: AppColors.darkBlue,
+  );
+
+  static const styleW400S11 = TextStyle(
+    fontSize: 11.0,
+    fontWeight: FontWeight.normal,
+    color: AppColors.darkBlue,
+  );
+
+  static const styleW400S9 = TextStyle(
+    fontSize: 9.0,
+    fontWeight: FontWeight.normal,
+    color: AppColors.subtitle,
   );
 }

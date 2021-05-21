@@ -8,7 +8,7 @@ class BeginButton extends StatelessWidget {
       width: 190.0,
       height: 55.0,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () => goToNamed(context, Routes.settings, {}),
         style: ElevatedButton.styleFrom(
             primary: AppColors.darkBlue,
             shape: RoundedRectangleBorder(

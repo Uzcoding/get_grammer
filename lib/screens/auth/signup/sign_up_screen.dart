@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get_grammer/utils/utils.dart';
-import 'package:get_grammer/widgets/custom_behavior.dart';
-import 'package:get_grammer/widgets/widgets.dart';
 
 import 'widgets/widgets.dart';
 

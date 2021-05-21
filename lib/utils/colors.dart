@@ -19,9 +19,10 @@ abstract class AppColors {
   static const Color profileName = Color(0xFF242134);
   static const Color profileLabel = Color(0xFF9595954);
   static const Color chat = Color(0xFFCBCBCB);
-  static const Color switchBg = Color(0xFFBFC0E9B);
+  static const Color switchBg = Color.fromRGBO(191, 192, 233, 1);
   static const Color inputWhite = Color(0xfff5f7f9);
   static const Color shadowBlack = Color(0x29000000);
   static const Color shadowColor = Color(0xff706868);
   static const Color forwardBg = Color(0xff28308F);
+  static const Color subtitle = Color(0xff3A3A6C);
 }

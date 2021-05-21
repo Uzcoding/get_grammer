@@ -16,4 +16,15 @@ abstract class Strings {
   static const String welcomeText =
       'Educational technology commonly abbreviated\nas Edutech or EdTech is the combined use of\ncomputer hardware, software.';
   static const String begin = 'Начать';
+  static const String settings = 'Настройки';
+  static const String voice = 'Голос';
+  static const String male = 'Мужской';
+  static const String female = 'Женский';
+  static const String accent = 'Акцент';
+  static const String british = 'Британский';
+  static const String discounts = 'Скидки и акции';
+  static const String autoPronuncation = 'Автопроизношение';
+  static const String alerts =
+      'Оповещения о скидках и выгодных\nпредложениях на обучение';
+  static const String chat = 'Чат';
 }
