@@ -33,6 +33,11 @@ abstract class Styles {
     color: AppColors.black,
     fontWeight: FontWeight.w500,
   );
+  static const styleW500S15 = TextStyle(
+    fontSize: 15.0,
+    color: Colors.white,
+    fontWeight: FontWeight.w500,
+  );
 
   static const styleW400S14 = TextStyle(
     fontSize: 14.0,

@@ -28,4 +28,9 @@ abstract class Strings {
       'Оповещения о скидках и выгодных\nпредложениях на обучение';
   static const String chat = 'Чат';
   static const String writeMessage = 'Напишите сообщение';
+  static const String subscription = 'Подписка';
+  static const String subscriptionText =
+      'Вы изучите больше >3 000 слов\nВы переведете >10 000 предложений\nВы решите >1 500 тестов';
+  static const String buy = 'Купить';
+  static const String premium = 'PREMIUM';
 }

@@ -25,4 +25,5 @@ abstract class AppColors {
   static const Color shadowColor = Color(0xff706868);
   static const Color forwardBg = Color(0xff28308F);
   static const Color subtitle = Color(0xff3A3A6C);
+  static const Color subscriptionGrey = Color(0xffA8A5A5);
 }
