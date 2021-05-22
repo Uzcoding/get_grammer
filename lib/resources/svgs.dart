@@ -19,6 +19,7 @@ class Svgs {
   static const String chat = 'assets/icons/chat.svg';
   static const String notification = 'assets/icons/notification.svg';
   static const String facebook = 'assets/icons/facebook.svg';
+  static const String camera = 'assets/icons/camera.svg';
   static const String profile = 'assets/icons/profile.svg';
   static const String googlePlus = 'assets/icons/google-plus.svg';
   static const String twitter = 'assets/icons/twitter.svg';

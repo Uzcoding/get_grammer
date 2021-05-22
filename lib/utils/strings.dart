@@ -33,4 +33,9 @@ abstract class Strings {
       'Вы изучите больше >3 000 слов\nВы переведете >10 000 предложений\nВы решите >1 500 тестов';
   static const String buy = 'Купить';
   static const String premium = 'PREMIUM';
+  static const String changePhoto = 'Изменить фото';
+  static const String nickName = 'Никнейм';
+  static const String profileEmail = 'Почта';
+  static const String change = 'Изменить';
+  static const String loaction = 'Местонахождение';
 }

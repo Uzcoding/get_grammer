@@ -11,6 +11,7 @@ abstract class Routes {
   static const String chats = '/chats';
   static const String chatDetail = '/chat-detial';
   static const String subscription = '/subscription';
+  static const String profile = '/profile';
 
   static generateRoute(settings) {
     switch (settings.name) {
@@ -43,6 +44,10 @@ abstract class Routes {
       case Routes.subscription:
         return MaterialPageRoute(
           builder: (context) => SubScriptionScreen(),
+        );
+      case Routes.profile:
+        return MaterialPageRoute(
+          builder: (context) => ProfileScreen(),
         );
     }
   }
