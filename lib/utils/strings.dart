@@ -27,4 +27,5 @@ abstract class Strings {
   static const String alerts =
       'Оповещения о скидках и выгодных\nпредложениях на обучение';
   static const String chat = 'Чат';
+  static const String writeMessage = 'Напишите сообщение';
 }

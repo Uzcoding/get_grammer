@@ -10,7 +10,7 @@ class ChatItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () => goToNamed(context, Routes.chatDetail, {}),
       child: Container(
         padding: const EdgeInsets.all(28.0).copyWith(right: 30.0, top: 10.0),
         width: double.infinity,

@@ -9,6 +9,7 @@ abstract class Routes {
   static const String welcome = '/welcome';
   static const String settings = '/settings';
   static const String chats = '/chats';
+  static const String chatDetail = '/chat-detial';
 
   static generateRoute(settings) {
     switch (settings.name) {
@@ -33,6 +34,10 @@ abstract class Routes {
       case Routes.settings:
         return MaterialPageRoute(
           builder: (context) => ChatsScreen(),
+        );
+      case Routes.chatDetail:
+        return MaterialPageRoute(
+          builder: (context) => ChatDetailScreen(),
         );
     }
   }
