@@ -8,7 +8,7 @@ import 'widgets/widgets.dart';
 
 class ChatsScreen extends StatelessWidget {
   final options = LiveOptions(
-    delay: Duration(milliseconds: 800),
+    delay: Duration(milliseconds: 100),
     showItemInterval: Duration(milliseconds: 300),
     showItemDuration: Duration(milliseconds: 600),
     visibleFraction: 0.05,

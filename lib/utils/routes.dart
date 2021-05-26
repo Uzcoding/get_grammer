@@ -12,9 +12,15 @@ abstract class Routes {
   static const String chatDetail = '/chat-detial';
   static const String subscription = '/subscription';
   static const String profile = '/profile';
+  static const String notification = '/notification';
+  static const String support = '/support';
 
   static generateRoute(settings) {
     switch (settings.name) {
+      case Routes.home:
+        return MaterialPageRoute(
+          builder: (context) => HomeScreen(),
+        );
       case Routes.signIn:
         return MaterialPageRoute(
           builder: (context) => SignInScreen(),
@@ -33,7 +39,7 @@ abstract class Routes {
         return MaterialPageRoute(
           builder: (context) => SettingsScreen(),
         );
-      case Routes.settings:
+      case Routes.chats:
         return MaterialPageRoute(
           builder: (context) => ChatsScreen(),
         );

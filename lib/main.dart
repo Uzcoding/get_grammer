@@ -19,7 +19,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.themeData,
-      home: ProfileScreen(),
+      home: HomeScreen(),
       onGenerateRoute: (settings) => Routes.generateRoute(settings),
     );
   }

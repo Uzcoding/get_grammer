@@ -6,3 +6,4 @@ export 'chats/chats_screen.dart';
 export 'chat_detail/chat_detail_screen.dart';
 export 'subscription/subscription_screen.dart';
 export 'profile/profile_screen.dart';
+export 'home/home_screen.dart';

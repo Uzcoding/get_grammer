@@ -38,4 +38,10 @@ abstract class Strings {
   static const String profileEmail = 'Почта';
   static const String change = 'Изменить';
   static const String loaction = 'Местонахождение';
+
+  // Drawer
+  static const String profile = 'Профиль';
+  static const String notification = 'Уведомления';
+  static const String support = 'Тех. Поддержка';
+  static const String logOut = 'Выйти';
 }
